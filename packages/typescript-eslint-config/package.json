@@ -19,11 +19,11 @@
     "typescript": ">=3.9"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.5.0",
-    "@typescript-eslint/parser": "^6.5.0"
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0"
   },
   "devDependencies": {
-    "tsup": "^6.6.3",
+    "tsup": "^6.7.0",
     "typescript": "^5.2.2"
   }
 }

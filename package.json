@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xieyezi/changan-config.git"
+    "url": "git+https://github.com/xieyezi/xieyezi-preset.git"
   },
   "keywords": [
     "config"
@@ -18,15 +18,15 @@
   "author": "xieyezi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xieyezi/changan-config/issues"
+    "url": "https://github.com/xieyezi/xieyezi-preset/issues"
   },
-  "homepage": "https://github.com/xieyezi/changan-config#readme",
+  "homepage": "https://github.com/xieyezi/xieyezi-preset#readme",
   "devDependencies": {
     "@types/node": "^20.5.9",
     "bumpp": "9.2.0",
-    "eslint": "^8.13.0",
-    "prettier": "^2.6.2",
-    "tsup": "^6.6.3",
+    "eslint": "^8.48.0",
+    "prettier": "^2.8.8",
+    "tsup": "^6.7.0",
     "typescript": "^5.2.2"
   }
 }

@@ -22,7 +22,7 @@
     "eslint-plugin-vue": "^9.17.0"
   },
   "devDependencies": {
-    "tsup": "^6.6.3",
+    "tsup": "^6.7.0",
     "typescript": "^5.2.2"
   }
 }

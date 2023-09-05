@@ -18,13 +18,13 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@xieyezi/eslint-config-typescript": "workspace:*",
-    "@react-native-community/eslint-config": "^3.0.1",
-    "@typescript-eslint/eslint-plugin": "^5.22.0",
-    "@typescript-eslint/parser": "^5.22.0"
+    "@react-native-community/eslint-config": "^3.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "@xieyezi/eslint-config-typescript": "workspace:*"
   },
   "devDependencies": {
-    "tsup": "^6.6.3",
-    "typescript": "^4.6.3"
-  },
+    "tsup": "^6.7.0",
+    "typescript": "^4.9.5"
+  }
 }
