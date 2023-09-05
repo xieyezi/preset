@@ -1,0 +1,32 @@
+{
+  "name": "@xieyezi/config-monorepo",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "common eslint and prettier config and so on for changan auto cloud",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "release": "bumpp package.json packages/*/package.json --commit --push && pnpm -r publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xieyezi/changan-config.git"
+  },
+  "keywords": [
+    "config"
+  ],
+  "author": "xieyezi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xieyezi/changan-config/issues"
+  },
+  "homepage": "https://github.com/xieyezi/changan-config#readme",
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "bumpp": "9.2.0",
+    "eslint": "^8.13.0",
+    "prettier": "^2.6.2",
+    "tsup": "^6.6.3",
+    "typescript": "^5.2.2"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "@xieyezi/eslint-config-vue3",
+  "version": "1.0.0",
+  "description": "vue3 eslint config",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepublishOnly": "pnpm run build",
+    "build": "tsup index.ts --format cjs,esm --dts --clean"
+  },
+  "author": "xieyezi",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@xieyezi/eslint-config-typescript": "workspace:*",
+    "eslint-plugin-vue": "^9.17.0"
+  },
+  "devDependencies": {
+    "tsup": "^6.6.3",
+    "typescript": "^5.2.2"
+  }
+}

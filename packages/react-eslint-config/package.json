@@ -1,0 +1,31 @@
+{
+  "name": "@xieyezi/eslint-config-react",
+  "version": "1.0.0",
+  "description": "react eslint config",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepublishOnly": "pnpm run build",
+    "build": "tsup index.ts --format cjs,esm --dts --clean"
+  },
+  "author": "xieyezi",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@xieyezi/eslint-config-typescript": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3"
+  },
+  "devDependencies": {
+    "tsup": "^6.6.3",
+    "typescript": "^5.2.2"
+  }
+}

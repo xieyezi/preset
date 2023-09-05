@@ -1,0 +1,29 @@
+{
+  "name": "@xieyezi/eslint-config-typescript",
+  "version": "1.0.0",
+  "description": "typescript and eslint config",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepublishOnly": "pnpm run build",
+    "build": "tsup index.ts --format cjs,esm --dts --clean"
+  },
+  "author": "xieyezi",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0"
+  },
+  "devDependencies": {
+    "tsup": "^6.6.3",
+    "typescript": "^5.2.2"
+  }
+}
