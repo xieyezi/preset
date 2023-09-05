@@ -1,6 +1,6 @@
 {
   "name": "@xieyezi/eslint-config-react-native",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "react-native eslint config",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
