@@ -2,7 +2,7 @@
 
 module.exports = {
   tabWidth: 2, //缩进长度
-  printWidth: 150, //单行长度
+  printWidth: 120, //单行长度
   useTabs: false, //使用空格代替tab缩进
   singleQuote: false, // 使用单引号
   semi: true, // 句末使用分号

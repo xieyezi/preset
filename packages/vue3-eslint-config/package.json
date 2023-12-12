@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "prepublishOnly": "pnpm run build",
-    "build": "tsup index.ts --format cjs,esm --dts --clean"
+    "build": "tsup index.ts --format cjs,esm --dts --clean --minify"
   },
   "author": "xieyezi",
   "license": "MIT",
@@ -22,7 +22,6 @@
     "eslint-plugin-vue": "^9.19.2"
   },
   "devDependencies": {
-    "tsup": "^8.0.1",
     "typescript": "^5.3.3"
   },
   "publishConfig": {
