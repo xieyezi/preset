@@ -2,7 +2,7 @@
   "name": "@xieyezi/config-monorepo",
   "version": "2.0.0",
   "private": "true",
-  "description": "common eslint and prettier config and so on for changan auto cloud",
+  "description": "common eslint and prettier config and other config for xieyezi",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
@@ -13,7 +13,9 @@
     "url": "git+https://github.com/xieyezi/xieyezi-preset.git"
   },
   "keywords": [
-    "config"
+    "config",
+    "eslint",
+    "prettier"
   ],
   "author": "xieyezi",
   "license": "MIT",
@@ -22,11 +24,11 @@
   },
   "homepage": "https://github.com/xieyezi/xieyezi-preset#readme",
   "devDependencies": {
-    "@types/node": "^20.5.9",
+    "@types/node": "^20.10.4",
     "bumpp": "9.2.0",
-    "eslint": "^8.48.0",
+    "eslint": "^8.55.0",
     "prettier": "^2.8.8",
-    "tsup": "^6.7.0",
-    "typescript": "^5.2.2"
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
   }
 }

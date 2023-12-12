@@ -18,15 +18,13 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.6.0",
-    "@typescript-eslint/parser": "^6.6.0",
     "@xieyezi/eslint-config-typescript": "workspace:*",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.3"
+    "eslint-plugin-react-refresh": "^0.4.5"
   },
   "devDependencies": {
-    "tsup": "^6.7.0",
-    "typescript": "^5.2.2"
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
   },
   "publishConfig": {
     "access": "public",

@@ -4,12 +4,20 @@
 // https://github.com/typescript-eslint/typescript-eslint/tree/main/packages/eslint-plugin
 
 module.exports = {
+  root: true,
   env: {
     es2020: true,
-    browser: true,
     node: true,
+    browser: true,
+    commonjs: true,
   },
-  extends: ["plugin:@typescript-eslint/recommended"],
+  parser: "@typescript-eslint/parser",
+  plugins: ["@typescript-eslint"],
+  extends: [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/recommended",
+  ],
   ignorePatterns: ["dist", ".eslintrc.js"],
   settings: {
     "import/resolver": {
@@ -27,6 +35,9 @@ module.exports = {
     "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
+
+    //import
+    "import/namespace": "off",
 
     // error
     "@typescript-eslint/no-unused-vars": [

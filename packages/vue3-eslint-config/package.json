@@ -19,11 +19,11 @@
   },
   "dependencies": {
     "@xieyezi/eslint-config-typescript": "workspace:*",
-    "eslint-plugin-vue": "^9.17.0"
+    "eslint-plugin-vue": "^9.19.2"
   },
   "devDependencies": {
-    "tsup": "^6.7.0",
-    "typescript": "^5.2.2"
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
   },
   "publishConfig": {
     "access": "public",

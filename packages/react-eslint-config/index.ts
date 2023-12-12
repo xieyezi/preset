@@ -10,11 +10,8 @@ module.exports = {
     browser: true,
     commonjs: true,
   },
-  parser: "@typescript-eslint/parser",
-  plugins: ["@typescript-eslint", "react-refresh"],
+  plugins: ["react-refresh"],
   extends: [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
     "plugin:react-hooks/recommended",
     "@xieyezi/eslint-config-typescript",
   ],
